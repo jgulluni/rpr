@@ -1,3 +1,5 @@
+## Rewrite to www
+Options +FollowSymLinks
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^radioproyectivareal.com [NC]
-RewriteRule ^(.*)$ http://www.radioproyectivareal.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
