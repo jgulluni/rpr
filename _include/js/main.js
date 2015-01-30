@@ -77,7 +77,7 @@ BRUSHED.slider = function(){
 		thumb_links				:	1,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/erdal-inci-1.gif', title : '<div class="slide-content">Accion, Reaccion. Repeticion.</div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/leon-ferrari-nada-es-mentira.jpg', title : '<div class="slide-content">Nada es mentira</div>', thumb : '', url : ''},
 											{image : '', title : '<div class="slide-content"></div>', thumb : '', url : ''},
 											{image : '', title : '<div class="slide-content"></div>', thumb : '', url : ''},
 											{image : '', title : '<div class="slide-content"></div>', thumb : '', url : ''}  
